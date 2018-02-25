@@ -4,7 +4,7 @@ import java.util.Observable;
 import java.util.Observer;
 
 /**
- * 彩民
+ * 彩民，充当具体观察者。
  * Created by z3jjlzt on 2018/2/10.
  */
 public class Punters implements Observer {

@@ -1,5 +1,7 @@
 package com.kkk.pattern.observe;
 
+import java.util.Random;
+
 /**
  * Created by kkk on 2016/9/5.
  */
@@ -13,7 +15,7 @@ public class Test {
         subject.attach(b);
         subject.attach(c);
     //    subject.detach(a);
-        ((SubjectImp)subject).setLuckyNum(24);
+        ((SubjectImp)subject).setLuckyNum(new Random().nextInt(30));
 //        subject.Notify();
     }
 

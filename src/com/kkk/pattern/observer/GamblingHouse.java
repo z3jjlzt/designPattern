@@ -4,6 +4,7 @@ import java.util.Observable;
 import java.util.Random;
 
 /**
+ * 充当具体被观察者。
  * Created by z3jjlzt on 2018/2/10.
  */
 public class GamblingHouse extends Observable {
