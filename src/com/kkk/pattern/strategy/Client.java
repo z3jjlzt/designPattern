@@ -10,5 +10,6 @@ public class Client {
         employee.explain();
         employee.setStrategy(new Walk());
         employee.explain();
+
     }
 }
