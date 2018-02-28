@@ -1,7 +1,5 @@
 package com.kkk.pattern.state1;
 
-import com.kkk.pattern.chain.Lawsuit;
-
 /**
  * 游戏角色，充当环境类Context.
  * Created by z3jjlzt on 2018/2/25.
